@@ -1,0 +1,2 @@
+.flexAroundHorizontally{display:flex;flex-direction:row;justify-content:space-around;margin:10px;flex-wrap:wrap;align-self:center;align-content:center;align-items:center}.flexStartVertically{display:flex;flex-direction:column;justify-content:start;margin:3px;grid-gap:10px;gap:10px}#inputs>div,#inputs>div>div{margin:3px;width:auto}.buttonContainer{margin:10px}textarea{max-width:100%;width:500px;min-height:150px;resize:none;font-family:"Fira Code";border:3px solid #ccc}div{font-size:1.1em}
+/*# sourceMappingURL=main.2b6191e6.chunk.css.map */

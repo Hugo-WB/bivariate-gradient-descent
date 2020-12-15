@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/bivariate-gradient-descent/static/css/main.2b6191e6.chunk.css",
+    "main.js": "/bivariate-gradient-descent/static/js/main.64df05a8.chunk.js",
+    "main.js.map": "/bivariate-gradient-descent/static/js/main.64df05a8.chunk.js.map",
+    "runtime-main.js": "/bivariate-gradient-descent/static/js/runtime-main.bf86ca10.js",
+    "runtime-main.js.map": "/bivariate-gradient-descent/static/js/runtime-main.bf86ca10.js.map",
+    "static/css/2.c95e19c0.chunk.css": "/bivariate-gradient-descent/static/css/2.c95e19c0.chunk.css",
+    "static/js/2.bec3343d.chunk.js": "/bivariate-gradient-descent/static/js/2.bec3343d.chunk.js",
+    "static/js/2.bec3343d.chunk.js.map": "/bivariate-gradient-descent/static/js/2.bec3343d.chunk.js.map",
+    "index.html": "/bivariate-gradient-descent/index.html",
+    "static/css/2.c95e19c0.chunk.css.map": "/bivariate-gradient-descent/static/css/2.c95e19c0.chunk.css.map",
+    "static/css/main.2b6191e6.chunk.css.map": "/bivariate-gradient-descent/static/css/main.2b6191e6.chunk.css.map",
+    "static/js/2.bec3343d.chunk.js.LICENSE.txt": "/bivariate-gradient-descent/static/js/2.bec3343d.chunk.js.LICENSE.txt",
+    "static/media/katex.min.css": "/bivariate-gradient-descent/static/media/KaTeX_Typewriter-Regular.c5441b17.ttf",
+    "static/media/semantic.min.css": "/bivariate-gradient-descent/static/media/outline-icons.ddae9b1b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf86ca10.js",
+    "static/css/2.c95e19c0.chunk.css",
+    "static/js/2.bec3343d.chunk.js",
+    "static/css/main.2b6191e6.chunk.css",
+    "static/js/main.64df05a8.chunk.js"
+  ]
+}
