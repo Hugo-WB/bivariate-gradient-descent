@@ -1,22 +1,27 @@
 {
-  "extends": "./tsconfig.base.json",
+  "extends": "./paths.json",
   "compilerOptions": {
-    "baseUrl": "./",
-    "paths": {
-      "plotly.js-gl3d-dist": [
-        "node_modules/@types/plotly.js"
-      ]
-    }
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
   },
+  "include": [
+    "src"
+  ]
 }
-// {
-//   "extends": "./tsconfig.base.json",
-//   "compilerOptions": {
-//     "baseUrl": "./",
-//     "paths": {
-//       "plotly.js-gl3d-dist": [
-//         "node_modules/@types/plotly.js"
-//       ]
-//     }
-//   },
-// }
