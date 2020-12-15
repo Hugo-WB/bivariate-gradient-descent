@@ -1,0 +1,21 @@
+
+
+.buttonContainer{
+  margin:10px;
+}
+
+.textAreaContainer{
+  
+}
+
+textarea{
+  max-width: 100%;
+  width:500px;
+  min-height: 150px;
+  resize: none;
+  font-family: "Fira Code";
+  border:3px solid #cccccc;
+}
+div{
+  font-size: 1.1em;
+}

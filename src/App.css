@@ -1,0 +1,27 @@
+.flexAroundHorizontally{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin:10px;
+  flex-wrap:wrap;
+  /* padding:10px; */
+  align-self: center;
+  align-content: center;
+  align-items: center;
+}
+.flexStartVertically{
+  display:flex;
+  flex-direction: column;
+  justify-content:start; 
+  margin: 3px;
+  gap:10px;
+}
+
+#inputs > div{
+  margin:3px;
+  width:auto;
+}
+#inputs > div > div{
+  margin:3px;
+  width:auto;
+}

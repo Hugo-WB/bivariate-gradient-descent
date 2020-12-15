@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "plotly.js-gl3d-dist": [
+        "node_modules/@types/plotly.js"
+      ]
+    }
+  },
+}
+// {
+//   "extends": "./tsconfig.base.json",
+//   "compilerOptions": {
+//     "baseUrl": "./",
+//     "paths": {
+//       "plotly.js-gl3d-dist": [
+//         "node_modules/@types/plotly.js"
+//       ]
+//     }
+//   },
+// }
