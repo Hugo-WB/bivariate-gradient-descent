@@ -1,19 +1,16 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import React, { ReactElement, useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import React, { ReactElement, useState } from "react";
+import { useDispatch} from "react-redux";
 import {
   Button,
-  Container,
   Dropdown,
   DropdownItemProps,
-  Header,
   Message,
   Input as InputSemantic,
   Checkbox,
 } from "semantic-ui-react";
 
 import Regression from "../Algorithms/Regression";
-import { RootState } from "../store/store";
 
 import "./Input.css";
 
@@ -31,7 +28,7 @@ export default function Input({}: Props): ReactElement {
     // { text: "Logarithmic",va},
   ];
   const typesToOptions: { [key: string]: any } = {
-    Linear: { alpha: "0.01", iterations: "3000" },
+    Linear: { alpha: "0.01", iterations: "4000" },
     Exponential: { alpha: "0.005", iterations: "4000" },
     Quadratic: { alpha: "0.005", iterations: "4000" },
     Custom: { alpha: "0.001", iterations: '5000' },
@@ -96,6 +93,7 @@ export default function Input({}: Props): ReactElement {
       setError("Make sure length of x and y are the same! Please try again");
       return;
     }
+    // check if all the options are valid:
     try {
       parseInt(options.iterations)
       Number(options.alpha)
@@ -111,6 +109,7 @@ export default function Input({}: Props): ReactElement {
       setError("Invalid Custom function")
       return
     }
+
     // show loading screen
     dispatch({
       type: "setAppState",
@@ -128,6 +127,7 @@ export default function Input({}: Props): ReactElement {
       Number(options.iterations),
       [Number(starting[0]),Number(starting[1])]
     );
+    // add the regression class to the store, with the input data.
     dispatch({ type: "setInputData", inputData: formattedInput });
     dispatch({
       type: "setRegression",
@@ -136,6 +136,7 @@ export default function Input({}: Props): ReactElement {
   };
 
   let formatInput = (input: string): number[][] => {
+    // formats the input, turning the textarea string into a 2d array of numbers
     try {
       // split string by \n to get an array of lines
       let lines = input.split("\n");

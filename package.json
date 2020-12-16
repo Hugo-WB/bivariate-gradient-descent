@@ -1,10 +1,9 @@
 {
-  "homepage":"https://hugo-wb.github.io/bivariate-gradient-descent/",
+  "homepage": "https://hugo-wb.github.io/bivariate-gradient-descent/",
   "name": "bivariate-gradient-descent",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@tensorflow/tfjs": "^2.7.0",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.5.0",

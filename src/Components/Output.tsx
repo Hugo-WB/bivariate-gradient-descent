@@ -3,13 +3,12 @@ import React, { useEffect, useRef, useState } from "react";
 import Plotly from "plotly.js-gl3d-dist";
 import createPlotlyComponent from "react-plotly.js/factory";
 
-import { InlineMath, BlockMath } from "react-katex";
+import { BlockMath } from "react-katex";
 import "katex/dist/katex.min.css";
 
 import { RootState } from "src/store/store";
 import { useSelector } from "react-redux";
 import { Header } from "semantic-ui-react";
-import { CircleLoader, ClimbingBoxLoader } from "react-spinners";
 
 interface Props {}
 
@@ -17,15 +16,15 @@ const Output = (props: Props) => {
   const [costSurface, setCostSurface] = useState<any[]>([]);
   const [steps, setSteps] = useState<number[][]>([]);
   useEffect(() => {
-    console.log("calculating cost surface...");
+    // start calucating the cost surface:
+    // cost surface:
     let CS = regression?.calculateCostSurface();
+    // gradient descent path taken:
     let s = regression?.getSteps();
-    if (CS != undefined && s != undefined) {
-      console.log({ CS, s });
+    if (CS !== undefined && s !== undefined) {
       setCostSurface(CS);
       setSteps(s);
     }
-    // PlotRef?.current?.scrollIntoView({behavior:"smooth"});
   }, []);
   const Plot = createPlotlyComponent(Plotly);
 

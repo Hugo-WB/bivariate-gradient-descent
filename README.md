@@ -1,3 +1,19 @@
+# Regression for bivariate functions using gradient descent
+
+hosted on GitHub pages at: https://hugo-wb.github.io/bivariate-gradient-descent/
+
+Performs regression with any bivariate function on a 2D dataset.
+
+Displays the regression line, then shows the 3D cost function surface with the path taken when performing gradient descent.
+
+## Packages
+
+MathJS: Used for differentiation for Regression
+
+Plotly.js: Used for displaying the output
+
+React-Katex: Displaying equation
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

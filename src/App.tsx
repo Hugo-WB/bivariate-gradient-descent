@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { useSelector } from "react-redux";
 
 import { RootState } from "./store/store";
@@ -10,23 +10,17 @@ import Input from "./Components/Input";
 import Output from "./Components/Output";
 import Loading from "./Components/Loading";
 
-import { Header } from "semantic-ui-react";
 
 interface Props {}
 
 const App = (props: Props) => {
-  const showInput = useSelector((state: RootState) => state.AppState.showInput);
-  const showOutput = useSelector(
+  const showInput:boolean = useSelector((state: RootState) => state.AppState.showInput);
+  const showOutput:boolean = useSelector(
     (state: RootState) => state.AppState.showOutput
   );
-  const showLoading = useSelector(
+  const showLoading:boolean = useSelector(
     (state: RootState) => state.AppState.showLoading
   );
-
-  // useEffect(() => {
-  //   return () => {
-  //   }
-  // }, [showInput,showOutput,showLoading])
 
   return (
     <div>
