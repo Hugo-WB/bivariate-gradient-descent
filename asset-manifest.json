@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bivariate-gradient-descent/static/css/main.2b6191e6.chunk.css",
-    "main.js": "/bivariate-gradient-descent/static/js/main.64df05a8.chunk.js",
-    "main.js.map": "/bivariate-gradient-descent/static/js/main.64df05a8.chunk.js.map",
+    "main.js": "/bivariate-gradient-descent/static/js/main.bee91de5.chunk.js",
+    "main.js.map": "/bivariate-gradient-descent/static/js/main.bee91de5.chunk.js.map",
     "runtime-main.js": "/bivariate-gradient-descent/static/js/runtime-main.bf86ca10.js",
     "runtime-main.js.map": "/bivariate-gradient-descent/static/js/runtime-main.bf86ca10.js.map",
     "static/css/2.c95e19c0.chunk.css": "/bivariate-gradient-descent/static/css/2.c95e19c0.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.c95e19c0.chunk.css",
     "static/js/2.bec3343d.chunk.js",
     "static/css/main.2b6191e6.chunk.css",
-    "static/js/main.64df05a8.chunk.js"
+    "static/js/main.bee91de5.chunk.js"
   ]
 }
