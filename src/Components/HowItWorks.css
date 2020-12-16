@@ -1,0 +1,24 @@
+
+#downArrow {
+  width: 6vmin;
+  height: 6vmin;
+  box-sizing: border-box;
+  border-color: rgb(54, 54, 54);
+  position: absolute;
+  left: 48%;
+  top: 90vh;
+  transform: rotate(-45deg);
+  border-width: 0 0 1vmin 1vmin;
+  border-style: solid;
+}
+#howItWorks{
+  /* position: absolute;
+  left: 49%;
+  top: 75vh; */
+  padding-top: 20vh;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
